@@ -12,9 +12,22 @@ const browsersync = require('browser-sync').create();
 
 
 // Minify images inside "app/images" folder and put the minified images inside "dist" folder
+// 
 function minifyImage(cb) {
-  src('app/images/*').pipe(imagemin({verbose: true})).pipe(dest('dist/images'));
-  cb();
+	src('app/images/*')
+		.pipe(cache(imagemin([
+			imagemin.gifsicle({ interlaced: true }),
+			imagemin.mozjpeg({quality:75, progressive: true }),
+			imagemin.optipng({ optimizationLevel: 5 }),
+			imagemin.svgo({
+				plugins: [
+					{ removeViewBox: true },
+					{ cleanupIDs: false }
+				]
+			})
+		])))
+		.pipe(dest('dist/images'));
+	cb();
 }
 
 
@@ -71,7 +84,7 @@ function watchTask() {
 // Default Gulp Task
 
 //Descomente o código abaixo para minificar as imagens, é recomendado usar somente 1 vez e aguardar que otimize as imagens
-//exports.default = series(clearCache, scssTask, jsTask, minifyImage, browserSyncServe, watchTask);
+exports.default = series(clearCache, scssTask, jsTask, minifyImage, browserSyncServe, watchTask);
 
 //Comente este código se for minificar a imagem, caso o contrário descomente.
-exports.default = series(clearCache, scssTask, jsTask, browserSyncServe, watchTask);
+//exports.default = series(clearCache, scssTask, jsTask, browserSyncServe, watchTask);
