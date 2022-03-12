@@ -2,7 +2,7 @@
 <p>O seguinte template contém um arquivo Gulp.js que para a sua correta utilização é necessário utilizar alguns comandos, sendo eles:</p>
 <p><code>npm init</code></p>
 <p><code>npm install -g gulp-cli</code></p>
-<p><code>sudo npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache<code></p>
+<code>sudo npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache<code>
 <h2>Depois de executado estes comandos, a seguir devemos usar: </h2>
 <p><code>gulp</code></p>
 <br><br>
