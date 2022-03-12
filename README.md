@@ -1,4 +1,4 @@
-<img src="https://www.flaticon.com/premium-icon/brazil-flag_2412385" />
+<img src="https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg" />
 <h1>Template de desenvolvimento Front-End</h1>
 <p>O seguinte template contém um arquivo Gulp.js que para a sua correta utilização é necessário utilizar alguns comandos, sendo eles:</p>
 <code>npm init</code>
