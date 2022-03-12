@@ -17,5 +17,7 @@
   <li>Otimiza todas as imagens dentro da pasta "app/images" e as coloca na pasta "dist/images"</li>
   <li>Minifica o arquivo CSS em quanto você digita!</li>
   <li>Minifica o arquivo JS em quanto você digita!</li>
+  <li>Gera CSS sourcemaps e JS sourcemaps automaticamente</li>
+  <li>Usa o Babel.js para tornar o Javascript mais compatível com navegadores antigos</li>
   <li>Pastas seguindo a estrutura de um projeto do mundo real!</li>
 </ol>
