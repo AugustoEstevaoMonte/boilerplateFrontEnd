@@ -1,5 +1,5 @@
 <a href="#brasil"><img src="https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg" alt="Bandeira do Brasil" width="100px" height="100px"></a>
-<a href="#us><img src="https://en.wikipedia.org/wiki/File:Flag_of_the_United_States.svg" alt="Bandeira dos Estados Unidos" width="100px" height="100px"></a>
+<a href="#us"><img src="https://en.wikipedia.org/wiki/File:Flag_of_the_United_States.svg" alt="Bandeira dos Estados Unidos" width="100px" height="100px"></a>
 <section id="#brasil">
     <h1>Template de desenvolvimento Front-End</h1>
     <p>O seguinte template contém um arquivo Gulp.js que para a sua correta utilização é necessário utilizar alguns comandos, sendo eles:</p>
