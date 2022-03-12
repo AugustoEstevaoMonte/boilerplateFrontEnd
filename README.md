@@ -1,4 +1,5 @@
 <a href="#brasil"><img src="https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg" alt="Bandeira do Brasil" width="200px" height="200px"></a>
+<a target="_blank" href="https://gulpjs.com/"><img src="https://gulpjs.com/img/gulp-white-logo.svg" alt="Icone do Gulp.js" width="200px" height="200px"></a>
 <section id="#brasil">
     <h1>Template de desenvolvimento Front-End</h1>
     <p>O seguinte template contém um arquivo Gulp.js que para a sua correta utilização é necessário utilizar alguns comandos, sendo eles:</p>
