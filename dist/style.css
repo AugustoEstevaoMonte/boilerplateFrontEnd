@@ -1,0 +1,2 @@
+:root{--font-body:Arial,sans-serif;--white:#fff;--black:#000}html{box-sizing:border-box;font-size:100%}*,:after,:before{box-sizing:inherit}body{margin:0;padding:0}h1,h2,h3{line-height:1.1;margin-top:0}a,a:active,a:visited{text-decoration:none}.container{margin:0 auto;max-width:69.375rem;padding:0 1.5rem}@media (min-width:71.875em){.container{padding:0;-webkit-transform:translate(0);transform:translate(0)}}
+/*# sourceMappingURL=style.css.map */
