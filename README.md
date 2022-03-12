@@ -4,7 +4,7 @@
 <br>
 <code>npm install -g gulp-cli</code>
 <br>
-<code>sudo npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache<code>
+<code>sudo npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache</code>
 <br>
 <h2>Depois de executado estes comandos, a seguir devemos usar: </h2>
 <code>gulp</code>
