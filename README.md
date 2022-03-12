@@ -10,10 +10,12 @@
 <code>gulp</code>
 <br><br>
 <h2>Beneficios desse template</h2>
-<p>Live server integrado</p>
-<p>Limpa o cache do navegador a cada atualização feita nos arquivos</p>
-<p>Transpilação de todo código em SASS da pasta "app/scss" para a pasta "dist"</p>
-<p>Otimiza todas as imagens dentro da pasta "app/images" e as coloca na pasta "dist/images"</p>
-<p>Minifica o arquivo CSS em quanto você digita!</p>
-<p>Minifica o arquivo JS em quanto você digita!</p>
-<p>Pastas seguindo a estrutura de um projeto do mundo real!</p>
+<ol>
+  <li>Live server integrado</li>
+  <li>Limpa o cache do navegador a cada atualização feita nos arquivos</li>
+  <li>Transpilação de todo código em SASS da pasta "app/scss" para a pasta "dist"</li>
+  <li>Otimiza todas as imagens dentro da pasta "app/images" e as coloca na pasta "dist/images"</li>
+  <li>Minifica o arquivo CSS em quanto você digita!</li>
+  <li>Minifica o arquivo JS em quanto você digita!</li>
+  <li>Pastas seguindo a estrutura de um projeto do mundo real!</li>
+</ol>
