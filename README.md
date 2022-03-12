@@ -1,7 +1,7 @@
 <a href="#brasil"><img src="https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg" alt="Bandeira do Brasil" width="200px" height="200px"></a>
 <a href="https://gulpjs.com/" target="_blank"><img src="https://gulpjs.com/img/gulp-white-logo.svg" alt="Icone do Gulp.js" width="200px" height="200px"></a>
 <br>
-<h3>Créditos:<a href="https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ">Estrutura de pastas/template desenvolvido por Coder Coder.</a><br>Adaptado para ter mais funcionalidades por Augusto</h3>
+<h3>Créditos:<a href="https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ">Estrutura de pastas/template desenvolvido por Coder Coder.</a><br><br>Adaptado para ter mais funcionalidades por Augusto</h3>
 <section id="#brasil">
     <h1>Template de desenvolvimento Front-End</h1>
     <p>O seguinte template contém um arquivo Gulp.js que para a sua correta utilização é necessário utilizar alguns comandos, sendo eles:</p>
