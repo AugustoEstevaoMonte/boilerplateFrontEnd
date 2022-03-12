@@ -1,8 +1,11 @@
 <h1>Template de desenvolvimento Front-End</h1>
 <p>O seguinte template contém um arquivo Gulp.js que para a sua correta utilização é necessário utilizar alguns comandos, sendo eles:</p>
 <code>npm init</code>
+<br>
 <code>npm install -g gulp-cli</code>
+<br>
 <code>sudo npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache<code>
+<br>
 <h2>Depois de executado estes comandos, a seguir devemos usar: </h2>
 <code>gulp</code>
 <br><br>
