@@ -10,7 +10,7 @@
     <ol>
         <li><code>git clone https://github.com/AugustoEstevaoMonte/boilerplateFrontEnd</code></li>
         <li><code>npm install</code></li>
-        <li> <code>npm install -g gulp-cli</code></li>
+        <li>npm install -g gulp-cli</li>
         <li> <code>sudo npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache</code></li>
     </ol>
     
