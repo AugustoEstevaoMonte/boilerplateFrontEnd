@@ -7,7 +7,7 @@
     <p>O seguinte template contém um arquivo Gulp.js que para a sua correta utilização é necessário utilizar alguns comandos, sendo eles:</p>
     <br>
     <ol>
-        <li><code>git clone https://github.com/AugustoEstevaoMonte/boilerplateFrontEnd</code></li>
+        <li>git clone https://github.com/AugustoEstevaoMonte/boilerplateFrontEnd</li>
         <li><code>npm install</code></li>
         <li><code>npm install -g gulp-cli</code></li>
         <li><code>sudo npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache</code></li>
