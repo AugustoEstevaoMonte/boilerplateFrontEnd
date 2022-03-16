@@ -6,12 +6,11 @@
     <h1>Template de desenvolvimento Front-End</h1>
     <p>O seguinte template contém um arquivo Gulp.js que para a sua correta utilização é necessário utilizar alguns comandos, sendo eles:</p>
     <br>
-    
     <ol>
-        <li>>git clone https://github.com/AugustoEstevaoMonte/boilerplateFrontEnd</li>
+        <li>git clone https://github.com/AugustoEstevaoMonte/boilerplateFrontEnd</li>
         <li><code>npm install</code></li>
         <li>npm install -g gulp-cli</li>
-        <li> sudo npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache</li>
+        <li>sudo npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache</li>
     </ol>
     
     <h2>Depois de executado estes comandos, a seguir devemos usar: </h2>
