@@ -66,7 +66,7 @@ gulp
 ### Sub-pastas
 
 | Parâmetro   | Descrição                                   |
-| :----------  :------------------------------------------ |
+| :---------- | :------------------------------------------ |
 | `app/vendor`      | É aqui onde você irá colocar todo os arquivos de terceiros como o Bootstrap |
 | `app/images` | É aqui  onde você irá colocar todas as suas imagens que serão minificadas e enviadas para a pasta `dist/images`|
 | `app/js` | É aqui onde  você colocará o seu Javascript que será minificado é enviado para a pasta `dist` |
