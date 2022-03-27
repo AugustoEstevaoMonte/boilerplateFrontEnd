@@ -77,6 +77,5 @@ gulp
 
 ## Demonstração
 
-Insira um gif ou um link de alguma demonstração
 
 ![GifProjeto](https://github.com/AugustoEstevaoMonte/gifsProjects/blob/main/boilerplateFrontEnd.gif)
