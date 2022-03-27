@@ -79,4 +79,4 @@ gulp
 
 Insira um gif ou um link de alguma demonstração
 
-![GifProjeto](https://github.com/AugustoEstevaoMonte/gifsProjects/blob/main/bloggif_62407dbe2fc23.gif)
+![GifProjeto](https://github.com/AugustoEstevaoMonte/gifsProjects/blob/main/boilerplateFrontEnd.gif)
