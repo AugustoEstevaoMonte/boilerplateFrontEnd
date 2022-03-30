@@ -6,30 +6,20 @@ const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const babel = require('gulp-babel');
 const terser = require('gulp-terser');
-const imagemin = require('gulp-imagemin'); // npm i gulp-imagemin@7.1.0
 var cache = require('gulp-cache');
 const browsersync = require('browser-sync').create();
+//the module to convert images to webp
+const webp = require('gulp-webp');
 
 
-// Minify images inside "app/images" folder and put the minified images inside "dist" folder
-// 
-function minifyImage(cb) {
-	src('app/images/*')
-		.pipe(cache(imagemin([
-			imagemin.gifsicle({ interlaced: true }),
-			imagemin.mozjpeg({quality:75, progressive: true }),
-			imagemin.optipng({ optimizationLevel: 5 }),
-			imagemin.svgo({
-				plugins: [
-					{ removeViewBox: true },
-					{ cleanupIDs: false }
-				]
-			})
-		])))
+//The task to convert images to webp
+function webpTask() {
+	return src('app/images/*.{jpg,png}')
+		.pipe(webp({
+			quality: 50 // Change here the value if you want to change the quality of the webp images
+		}))
 		.pipe(dest('dist/images'));
-	cb();
 }
-
 
 //Cache clean task
 function clearCache(cb) {
@@ -84,7 +74,7 @@ function watchTask() {
 // Default Gulp Task
 
 //Descomente o código abaixo para minificar as imagens, é recomendado usar somente 1 vez e aguardar que otimize as imagens
-exports.default = series(clearCache, scssTask, jsTask, minifyImage, browserSyncServe, watchTask);
+exports.default = series(clearCache, scssTask, jsTask, webpTask, browserSyncServe, watchTask);
 
 //Comente este código se for minificar a imagem, caso o contrário descomente.
 //exports.default = series(clearCache, scssTask, jsTask, browserSyncServe, watchTask);

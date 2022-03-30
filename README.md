@@ -34,6 +34,12 @@ O template contém várias funções automatizadas para os seus projetos front-e
 npm install
 ```
 
+### Mudando o diretório para o template
+
+```bash
+cd boilerplateFrontEnd
+```
+
 
 #### instalando o Gulp cli
 
@@ -44,7 +50,7 @@ npm install -g gulp-cli
 #### instalando os pacotes NPM requisitos para o Gulp.js
 
 ```npm
-npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-imagemin gulp-cache
+npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-webp gulp-cache
 ```
 
 #### Executando o template
