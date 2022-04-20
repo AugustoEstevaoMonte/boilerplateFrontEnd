@@ -1,0 +1,1 @@
+var message="Olá mundo",sayIt=function(o){void 0===o&&(o="Olá mundo"),console.log(o)};sayIt(),console.log("concat of ts working!");

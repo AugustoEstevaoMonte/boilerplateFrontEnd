@@ -50,7 +50,7 @@ npm install -g gulp-cli
 #### instalando os pacotes NPM requisitos para o Gulp.js
 
 ```npm
-npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser gulp-webp gulp-cache
+npm install postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-typescript gulp-uglify gulp-webp gulp-cache
 ```
 
 #### Executando o template
